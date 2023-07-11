@@ -1,0 +1,97 @@
+<!-- <style>
+    body .loading-preloader {
+      margin-inline: auto;
+    }
+  
+    @keyframes bounce {
+      from {
+        transform: translateY(0%);
+      }
+  
+      to {
+        transform: translateY(-75%);
+      }
+    }
+  
+    .loading-wrapper {
+      position: absolute;
+      /* top: 0;
+    left: 0; */
+      width: 100%;
+      height: 100%;
+      z-index: 99999 !important;
+      /* background-image: url('../img/steps.png'); */
+      background-repeat: no-repeat;
+      background-color: #fff;
+      background-position: center;
+      overflow-y: scroll;
+      position: fixed;
+      overflow: hidden
+    }
+  
+    .loading-preloader {
+      --height: 30px;
+      --loader-color: black;
+      --animation-duration: 0.5s;
+      display: flex;
+      align-items: flex-end;
+      gap: calc(var(--height) / 4);
+      height: calc(var(--height) * 1.75);
+      width: max-content;
+      height: 100vh;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .loading-preloader:before,
+    .loading-preloader:after {
+      content: "";
+    }
+  
+    .loading-preloader>div,
+    .loading-preloader::before,
+    .loading-preloader::after {
+      height: var(--height);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background-color: #c00;
+      animation: bounce var(--animation-duration) ease-in-out infinite alternate;
+    }
+  
+    .loading-preloader:after {
+      animation-delay: calc(var(--animation-duration) / 2);
+    }
+  
+    .loading-preloader>div {
+      animation-delay: calc(var(--animation-duration) / 4);
+    }
+  </style>
+  
+  <div class="loading-wrapper">
+    <div class="loading-preloader">
+      <div></div>
+    </div>
+  </div>
+  
+  <script>
+    function fadeOut(el) {
+      let opacity = 1;
+  
+      let timer = setInterval(function() {
+  
+        if (opacity <= 0.05) {
+          clearInterval(timer);
+          document.querySelector(el).style.display = "none";
+        }
+  
+        document.querySelector(el).style.opacity = opacity;
+        opacity -= opacity * 0.1;
+  
+      }, 10);
+    }
+  
+    setTimeout(() => fadeOut('.loading-wrapper'), 2000);
+  </script> -->

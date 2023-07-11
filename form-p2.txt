@@ -1,0 +1,60 @@
+VulnPoint Form, Developer Limited 2022
+__All questions should have the most detailed answers__
+
+# Item name and vulnerable versions list:
+
+
+# Webpage of vulnerable item:
+
+
+# Price:
+
+
+# Affected OS: 
+
+
+# Does this exploit affect the current target version?
+
+
+# Targets can be found with google dork/shodan/censys?
+Link:
+
+# Exploit Type (select all that apply)
+[ ] Remote code execution
+[ ] Privilege escalation
+[ ] Sandbox escape
+[ ] Other:______
+
+# Delivery Method
+[ ] Via web page
+[ ] Via file
+[ ] Via network protocol
+[ ] Local privilege escalation
+[ ] Other (please specify): ______
+
+# Privilege Level Gained
+[ ] Low
+[ ] Medium
+[ ] High
+[ ] Root or System
+[ ] Ring 0/Kernel
+[ ] Other
+
+# Bug Class
+[ ] memory corruption
+[ ] design/logic flaw (auth-bypass / update issues)
+[ ] input validation flaw (XSS/XSRF/SQLi/command injection, etc.)
+[ ] misconfiguration
+[ ] information disclosure
+
+# Does this exploit weaponized and finished item ready for delivery immediately?
+[ ] Yes
+[ ] No
+
+# Deliverables  
+[ ] Exploit binaries/code 
+[ ] Documentation 
+[ ] Source Code 
+[ ] Other (Explain ____) 
+
+#Comments and other notes; unusual artifacts, other limitations, mitigations or other pieces of information:
